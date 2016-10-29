@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+author: p.schwake
+edited: 2016-10-23 psc
+file: settings.xml
+about: shows save
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_settings_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/action_save"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>

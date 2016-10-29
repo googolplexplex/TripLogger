@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="au.edu.usc.triplogger">
+
+    <!--
+author: p.schwake
+edited: 2016-10-23 psc
+file: AndroidManifest.xml
+about: Manifests the destiny (of this app)
+-->
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18"
+        />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera"
+        android:required="false"
+        />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TripListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TripActivity">
+        </activity>
+        <activity android:name=".TripViewActivity">
+        </activity>
+        <activity android:name=".SettingsActivity">
+            <intent-filter>
+                <action android:name="au.edu.usc.triplogger.settings_id" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

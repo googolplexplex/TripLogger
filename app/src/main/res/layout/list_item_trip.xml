@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+author: p.schwake
+edited: 2016-10-22 psc
+file: list_item_trip.xml
+about: Layout to list the trips in the main view
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/list_item_trip_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="Trip Title"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/list_item_trip_date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_trip_title_text_view"
+        tools:text="Trip Date"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/list_item_trip_destination_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_trip_date_text_view"
+        tools:text="Trip Destination"
+        android:padding="4dp"/>
+
+</RelativeLayout>

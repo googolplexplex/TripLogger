@@ -1,0 +1,54 @@
+<!--
+author: p.schwake
+edited: 2016-10-21 psc
+file: strings.xml
+about: texts for string values
+-->
+
+<resources>
+    <string name="app_name">TripLogger</string>
+    <string name="trip_title_hint">Enter a title for the trip.</string>
+    <string name="trip_title_label">Title</string>
+    <string name="trip_details_label">Details</string>
+    <string name="trip_date_label">Date</string>
+    <string name="trip_type_label">Trip Type</string>
+    <string name="trip_destination_hint">Enter a destination for the trip.</string>
+    <string name="trip_destination_label">Destination</string>
+    <string name="trip_duration_hint">Enter a duration for the trip.</string>
+    <string name="trip_duration_label">Duration</string>
+    <string name="trip_comment_hint">Enter a comment for the trip, or don\'t.</string>
+    <string name="trip_comment_label">Comment</string>
+    <string name="trip_location_label">Location</string>
+    <string name="trip_location_text">View GPS location in Google Maps</string>
+    <string name="trip_location_null">Location not available</string>
+    <string name="settings_name_hint">Enter your name.</string>
+    <string name="settings_name_label">Name</string>
+    <string name="settings_id_hint">Enter your ID.</string>
+    <string name="settings_id_label">ID</string>
+    <string name="settings_email_hint">Enter your email address.</string>
+    <string name="settings_email_label">Email</string>
+    <string name="settings_gender_hint">Enter your gender.</string>
+    <string name="settings_gender_label">Gender</string>
+    <string name="settings_comment_hint">Enter a comment, if you want to.</string>
+    <string name="settings_comment_label">Comment</string>
+    <string name="new_trip">Log</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_locate">Locate current location</string>
+
+
+    <string-array name="trip_type">
+        <item>Work</item>
+        <item>Personal</item>
+        <item>Commute</item>
+    </string-array>
+
+
+    <!--<string-array name="trip_type">
+        <item>Interplanetary</item>
+        <item>Interstellar</item>
+        <item>Intergalactic</item>
+    </string-array>-->
+</resources>
